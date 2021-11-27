@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*navbar starts here*/
+nav {
+    margin-top: auto;
+    margin-left: auto;
+    width: 100vw;
+    height: 65px;
+    background-color: white;
+    padding: 0 100px;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
+
+nav .logo p {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    padding-top: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-top: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 25px;
+}
+
+/*video block starts here*/
+.video {
+    width: 100%;
+    height: 720px;
+    background-color: #009AE5;
+}
+
+/*logo and buttons starts here*/
+.payroute-logo {
+    width: 136px;
+    height: 43px;
+    display: inline-block;
+    padding: 0;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background: transparent url(./assets/PayRoute_Logo.png) no-repeat 0 50%;
+    background-size: contain;
+    overflow: hidden;
+    text-indent: -999em;
+}
+
+.login {
+    font-size: 12px;
+    border: 1px solid #005ea9;
+    border-radius: 28px;
+    padding: 11px 23px;
+    font-weight: bold;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #005ea9;
+}
+
+.login:hover {
+    opacity: 90%;
+}
+
+.signup {
+    font-size: 12px;
+    background-color: #005ea9;
+    border-radius: 28px;
+    padding: 11px 23px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+
+}
+
+.signup:hover {
+    opacity: 90%;
+}
+
+/*centre quote starts here*/
+.quote {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.quote header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.quote header h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.quote header div:nth-child(2) {
+    margin-top: 40px;
+}
+
+/*signup center starts here*/
+.signup-center {
+    background-color: white;
+    padding: 15px 100px;
+    color: #02387b;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*Second block starts here*/
+.secondBlock {
+    background-color: #02387b;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondBlock div:nth-child(1) {
+    color: white;
+    font-size: 23px;
+}
+
+.secondBlock div:nth-child(2) {
+    margin-top: 25px;
+}
+
+.secondBlock div:nth-child(2) a {
+    background-color: white;
+    color: #02387b;
+    padding: 10px 23px;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/*shopping block starts here*/
+.shopping {
+    width: 100%;
+    background-color: white;
+    height: 400px;
+}
+
+.shopping article {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.shopping article .div1 {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 400px;
+    padding-top: 100px;
+}
+
+.shopping article .div2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.shopping .div2 img {
+    width: 350px;
+}
+
+.div1 h3 {
+    color: #00a8ea;
+    font-size: 40px;
+}
+
+.div1 p {
+    margin-top: 12px;
+    line-height: 26px;
+}
+
+.div1 a {
+    border: 1px solid #005ea9;
+    color: #005ea9;
+    padding: 15px 120px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*millions block starts here*/
+.millions {
+    width: 100%;
+    background-color: #f5f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.millions article {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*brands starts here*/
+.millions .asos,
+.udemy,
+.bang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    padding-right: 200px;
+}
+
+.asos img {
+    width: 110px;
+    height: 30px;
+}
+
+/*community starts here*/
+.community {
+    background-color: #00a8ea;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community article {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.community h2 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.community .div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.community .div2 a {
+    background-color: white;
+    color: #02387b;
+    padding: 13px 120px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.community .div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.community .div3 ul li {
+    list-style: none;
+    color: black;
+    font-size: 45px;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin-left: 5px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community .div3 ul {
+    display: flex;
+}
+
+/*business starts here*/
+.businessDiv4 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+}
+
+.businessDiv4 h4:nth-child(1) {
+    margin-top: 28px;
+}
+
+.businessDiv4 h4 {
+    margin-top: 12px;
+}
+
+/*partner starts here*/
+.partner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partnerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.partnerDiv div:nth-child(2) {
+    margin-top: 50px;
+}
+
+/*footer starts here*/
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #f5f7fa;
+    justify-content: center;
+}
+
+footer article {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer article .div1 {
+    margin-top: -15px;
+    padding-top: 30px;
+}
+
+footer article .div2 {
+    display: flex;
+    margin-bottom: 12px;
+    padding-top: 30px;
+}
+
+footer article .div2 ul li,
+footer article .div3 ul li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer article .div2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer article .div2 ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+footer article .div2 div:nth-child(1) {
+    width: 98%;
+}
+
+footer article .div3 {
+    display: flex;
+    margin-top: 12px;
+}
+
+footer article .div3 ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+footer article .div3 div:nth-child(1) {
+    width: 80%;
+}
+
+footer article .div3 ul li a:hover {
+    border-bottom: 1px solid grey;
+}
+
+footer article .div4 {
+    margin-top: 15px;
+    font-size: 13px;
+    color: grey;
+}
